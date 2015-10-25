@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>About</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <style>
+      body{
+        -webkit-user-select:none;
+        -webkit-app-region:drag;
+        background-color: rgb(251,251,251);
+      }
+      .about-wrapper{
+        margin: 20px;
+      }
+      .about-img{
+        float: left;
+        margin-top: 20px;
+        margin-right: 20px;
+      }
+      .about-desc{
+        float: left;
+      }
+      .about-close{
+        float: right;
+        margin-top: 20px;
+        margin-right: 30px;
+      }
+      .about-close button{
+        width: 70px;
+        height: 30px;
+        font-size: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="about-wrapper">
+      <img class="about-img" src="img/icon.png" width="100">
+      <div class="about-desc">
+        <h3>Counter Counter</h3>
+        <p>ver 1.0.0</p>
+        <p>&nbsp;</p>
+        <p>Author: Zyzsdy (zyzsdy@kotori.moe)</p>
+        <p>Home Page: https://zyzsdy.com/counter</p>
+      </div>
+      <div class="clear"></div>
+      <div class="about-close">
+        <button id="close">Close</button>
+      </div>
+    </div>
+    <script>
+      var close_btn = document.getElementById('close');
+      close_btn.onclick = function(){
+        var gui = require('nw.gui')
+        var win = gui.Window.get()
+        win.close(true)
+      }
+    </script>
+  </body>
+</html>

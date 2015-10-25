@@ -1,0 +1,11 @@
+{
+	"main": "index.html",
+	"name": "Counter Counter",
+	"version": "0.1.0",
+	"window": {
+		"icon": "img/icon.png",
+		"toolbar": false,
+		"width": 900,
+		"height": 550
+	}
+}

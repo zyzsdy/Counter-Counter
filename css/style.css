@@ -1,0 +1,93 @@
+body{
+	margin: 0;
+	-webkit-user-select:none;
+	background-color: rgb(240, 240, 240);
+	font-family: "Hiragino Sans GB", "Source Han Sans", "Microsoft Yahei", "微软雅黑", PingHei, "WenQuanYi Micro Hei", STHeiti, Arial, Helvetica, sans-serif;
+}
+.item{
+	float: left;
+	height: 150px;
+	width: 200px;
+	margin: 10px;
+	border: 1px solid rgb(33, 33, 33);
+	background-color: white;
+	cursor: default;
+}
+.item-title{
+	width: 100%;
+	text-align: center;
+	font-size: 20px;
+	height: 30px;
+	line-height: 30px;
+}
+.item-title>span{
+	width: 180px;
+	height: 30px;
+	display: inline-block;
+}
+.item-title>input{
+	width: 180px;
+	text-align: center;
+	font-size: 20px;
+	height: 30px;
+	line-height: 28px;
+	font-family: "Hiragino Sans GB", "Source Han Sans", "Microsoft Yahei", "微软雅黑", PingHei, "WenQuanYi Micro Hei", STHeiti, Arial, Helvetica, sans-serif;
+}
+.item-main{
+	width: 100%;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 40px;
+}
+.item-key{
+	width: 100%;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+}
+.item-key>kbd{
+	padding-left: 6px;
+	padding-right: 6px;
+	margin-right: 40px;
+	background-color: black;
+	border-radius: 5px;
+	color: white;
+}
+.item-key>kbd:hover{
+	background-color: darkred;
+}
+.itemnew{
+	border: dashed 1px black;
+	background-color: rgb(240, 240, 240);
+}
+.item-newcounter{
+	width: 100%;
+	height: 150px;
+	line-height: 130px;
+	font-size: 100px;
+	color: rgb(200, 200, 200);
+	text-align: center;
+}
+.itemnew:hover{
+	background-color: rgb(233, 233, 233);
+}
+.item-newcounter:hover{
+	color: rgb(150, 150, 150);
+}
+.item-close{
+	background-color: black;
+	color: white;
+	position: absolute;
+}
+.item-close:hover{
+	background-color: darkred;
+}
+.clear{
+	clear: both;
+}
+.help-wrapper{
+	width: 500px;
+	margin: auto;
+}
